@@ -1,0 +1,12 @@
+import "/robocomp/interfaces/IDSLs/DifferentialRobot.idsl";
+
+Component first
+{
+	Communications
+	{
+		requires DifferentialRobot;
+	};
+	language Cpp;
+	gui Qt(QWidget);
+};
+
